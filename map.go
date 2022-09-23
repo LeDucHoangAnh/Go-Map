@@ -41,4 +41,11 @@ func main() {
 	//length map
 	fmt.Println(len(myMap2))
 
+	//Map là một reference type
+	myMap3 := myMap2
+	fmt.Println(myMap3)
+
+	myMap3["key5"] = 9
+	fmt.Println(myMap2)
+
 }
