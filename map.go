@@ -33,4 +33,9 @@ func main() {
 	myMap2["key5"] = 5
 	myMap2["key6"] = 6
 	fmt.Println(myMap2)
+
+	//delete 1 phan tu trong map : delete(map, key)
+	delete(myMap2, "key1")
+	fmt.Println(myMap2)
+
 }
