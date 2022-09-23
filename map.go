@@ -28,4 +28,9 @@ func main() {
 		"key4": 4,
 	}
 	fmt.Println(myMap2)
+
+	// them 1 phan tu vao map
+	myMap2["key5"] = 5
+	myMap2["key6"] = 6
+	fmt.Println(myMap2)
 }
