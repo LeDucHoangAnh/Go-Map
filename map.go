@@ -38,4 +38,7 @@ func main() {
 	delete(myMap2, "key1")
 	fmt.Println(myMap2)
 
+	//length map
+	fmt.Println(len(myMap2))
+
 }
