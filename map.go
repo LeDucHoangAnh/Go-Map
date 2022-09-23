@@ -55,5 +55,8 @@ func main() {
 	} else {
 		fmt.Println("khong tim thay")
 	}
-
+	// trong map không có toán tử ==
+	if myMap2 == myMap3 {
+		fmt.Println(value)
+	}
 }
