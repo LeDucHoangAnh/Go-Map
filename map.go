@@ -48,4 +48,12 @@ func main() {
 	myMap3["key5"] = 9
 	fmt.Println(myMap2)
 
+	// truy cập 1 phẩn tử trong map
+	value, found := myMap2["key1000"]
+	if found {
+		fmt.Println(value)
+	} else {
+		fmt.Println("khong tim thay")
+	}
+
 }
